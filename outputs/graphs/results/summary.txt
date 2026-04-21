@@ -1,0 +1,4 @@
+with open('../outputs/results/summary.txt', 'w') as f:
+    f.write("Top Country: " + str(top_countries.idxmax()) + "\n")
+    f.write("Highest Growth Country: " + str(growth.idxmax()) + "\n")
+    f.write("Lowest Growth Country: " + str(growth.idxmin()) + "\n")
